@@ -20,10 +20,12 @@
     </h1>
 </header>
 <?php
-$countryName = "Cyprus";
-$currentAge = "15";
+$countryName = "Zweden";
+$currentAge = 16;
 
-if ($countryName == "Zweden"." Nederland"."Bulgarije")
+if ($countryName == "Zweden"
+    ||$countryName=="Nederland"
+    ||$countryName == "Bulgarije")
 {
     if ($currentAge == 18)
     {
