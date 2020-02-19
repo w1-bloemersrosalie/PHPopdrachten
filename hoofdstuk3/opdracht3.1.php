@@ -22,24 +22,24 @@
     </h1>
 </header>
 <?php
-$word1 ="Elfstedentocht";
-$word2 ="Alvestêdetocht";
-$word3 ="200";
-$word4 ="schaatstocht";
-$word5 ="natuurijs";
-$word6 ="Koninklijke Vereniging De Friese Elf Steden";
-$word7 ="Leeuwarden";
-$word8 ="Friesland";
-$word9 ="15";
-$word10 ="1909";
-$word11 ="1";
+$elfstedentocht ="Elfstedentocht";
+$alvestedetocht ="Alvestêdetocht";
+$kilometer ="200";
+$schaatstocht ="schaatstocht";
+$ijs ="natuurijs";
+$KVDFES ="Koninklijke Vereniging De Friese Elf Steden";
+$leeuwarden ="Leeuwarden";
+$friesland ="Friesland";
+$cijfer2 ="15";
+$jaartal ="1909";
+$cijfer3 ="1";
 
-$verhaal = "De  $word1  (Fries: $word2)
- is een  $word3 kilometer lange  $word4  
- over  $word5  die wordt georganiseerd door de  $word6 .
- $word7 , de hoofdstad van  $word8 , is start- en aankomstplaats.
- De  $word1  is inmiddels  $word9  maal verreden en
- werd voor het eerst in  $word10  gereden en wordt maximaal  $word11 
+$verhaal = "De  $elfstedentocht  (Fries: $alvestedetocht)
+ is een  $kilometer kilometer lange  $schaatstocht  
+ over  $ijs die wordt georganiseerd door de  $KVDFES .
+ $leeuwarden , de hoofdstad van  $friesland , is start- en aankomstplaats.
+ De  $elfstedentocht  is inmiddels  $cijfer2  maal verreden en
+ werd voor het eerst in  $jaartal  gereden en wordt maximaal  $cijfer3 
  keer per winter gehouden. ";
 
 echo "<p>$verhaal</p>"
