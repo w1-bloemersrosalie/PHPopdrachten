@@ -24,8 +24,8 @@ $countryName = "Zweden";
 $currentAge = 16;
 
 if ($countryName == "Zweden"
-    ||$countryName=="Nederland"
-    ||$countryName == "Bulgarije")
+    || $countryName=="Nederland"
+    || $countryName == "Bulgarije")
 {
     if ($currentAge == 18)
     {
