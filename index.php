@@ -50,7 +50,7 @@
                     <a href="hoofdstuk3/OPDRACHT3.2.taak1.php">Opdracht 3.2 taak 1</a>
                 </li>
                 <li>
-                    <a href=>Opdracht 3.2 taak 2</a>
+                    <a href="hoofdstuk3/OPDRACHT3.2taak2.php">Opdracht 3.2 taak 2</a>
                 </li>
                 <li>
                     <a href=>Opdracht 3.3</a>
