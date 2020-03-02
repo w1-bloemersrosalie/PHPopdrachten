@@ -53,7 +53,7 @@
                     <a href="hoofdstuk3/OPDRACHT3.2taak2.php">Opdracht 3.2 taak 2</a>
                 </li>
                 <li>
-                    <a href=>Opdracht 3.3</a>
+                    <a href="hoofdstuk3/opdracht3.3.php">Opdracht 3.3</a>
                 </li>
             </ul>
         </li>
@@ -103,5 +103,6 @@
         </li>
     </ul>
 
+<footer>klik op de opdrachten om een vester te openen met daarin de uitgekozen opdracht</footer>
 </body>
 
