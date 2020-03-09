@@ -12,4 +12,8 @@ switch ($courseName) {
     case "javascript":
         $teacherName = "Evers";
         break;
+    case "rekenen":
+        $teacherName = "Wetering";
+        break;
+    case ""
 }

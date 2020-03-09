@@ -16,8 +16,9 @@
     </h1>
 </header>
 <h1>Opdracht 4.1</h1>
-
-
+<?php
+include  "footer.php"
+?>
 
 </body>
 </html>
