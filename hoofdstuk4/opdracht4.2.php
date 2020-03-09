@@ -1,12 +1,15 @@
+<?php /**
+ * User: Rosalie Bloemers
+ * Date: 2-3-2020
+ */ ?>
 <!DOCTYPE html>
-
 <html>
 <head>
 
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta charset="utf-8">
-    <link href= "stylesheet.css "rel="stylesheet" type="text/css">
+    <link href="stylesheet.css " rel="stylesheet" type="text/css">
 
 </head>
 <body>
@@ -15,9 +18,7 @@
         <?php echo "Uitwerking van PHP-opdrachten"; ?>
     </h1>
 </header>
-<h1>Opdracht 4.1</h1>
-
-
-
+<body>
+<?php include 'script.js'; ?>
 </body>
 </html>
