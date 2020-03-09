@@ -20,8 +20,8 @@
     </h1>
 </header>
 <?php
-$countryName = "Zweden";
-$currentAge = 16;
+$countryName = "Nederland";
+$currentAge = 13;
 
 if ($countryName == "Zweden"
     || $countryName=="Nederland"

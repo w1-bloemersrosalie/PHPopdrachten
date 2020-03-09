@@ -1,0 +1,16 @@
+.title
+{
+    color:aqua;
+    border: 1px solid black;
+    text-align: center;
+}
+.back
+{
+    font-size: 20px;
+    color: aqua;
+    background-color: azure;
+}
+footer
+{
+    position: sticky;
+}
