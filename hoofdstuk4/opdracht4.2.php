@@ -1,6 +1,6 @@
 <?php /**
  * User: Rosalie Bloemers
- * Date: 2-3-2020
+ * Date: 9-3-2020
  */ ?>
 <!DOCTYPE html>
 <html>
@@ -10,7 +10,6 @@
     <meta name="keywords" content="">
     <meta charset="utf-8">
     <link href="stylesheet.css " rel="stylesheet" type="text/css">
-
 </head>
 <body>
 <header>
@@ -18,7 +17,14 @@
         <?php echo "Uitwerking van PHP-opdrachten"; ?>
     </h1>
 </header>
-<body>
-<?php include 'script.js'; ?>
+
+<?php include "script.php";
+echo "Voor het vak $courseName heb je $teacherName als docent "
+?>
+
+<footer>
+    <a href="../index.php" class="back">klik hier om terug te gaan</a>
+</footer>
+
 </body>
 </html>
