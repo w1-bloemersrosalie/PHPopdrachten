@@ -18,7 +18,7 @@ while($number >= 0)
     }
     $number--;
 }
-print $task2
+
 ?>
 <br>
 <?php
@@ -32,7 +32,7 @@ for($number2 = 19; $number2 >= 0; $number2--)
     }
 
 }
-print $task3;
+
 ?>
 <br>
 <?php
