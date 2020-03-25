@@ -1,0 +1,43 @@
+.title
+{
+    color:aqua;
+    border: 1px solid black;
+    text-align: center;
+}
+#menu
+{
+    color: aqua;
+    text-align: center;
+    border: 1px solid black;
+}
+#foto
+{
+    position: absolute;
+    right: 150px;
+    top: 130px;
+}
+ul
+{
+    list-style: none;
+}
+.text
+{
+    font-size: 20px;
+    color: aqua;
+    background-color: azure;
+}
+a
+{
+    color: black;
+    text-decoration: none;
+}
+.back
+{
+    font-size: 20px;
+    color: aqua;
+    background-color: azure;
+}
+footer
+{
+    position: sticky;
+}

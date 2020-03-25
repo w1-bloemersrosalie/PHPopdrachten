@@ -34,3 +34,8 @@ for($number2 = 19; $number2 >= 0; $number2--)
 }
 print $task3;
 ?>
+<br>
+<?php
+$task4 = "";
+
+?>
