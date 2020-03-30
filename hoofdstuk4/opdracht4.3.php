@@ -30,6 +30,21 @@ echo $task2;
 <?php
 echo $task3;
 ?>
-
+<br>
+<?php
+echo $task4;
+?>
+<br>
+<?php
+echo $task5;
+?>
+<?php
+echo $task6;
+?>
+<br>
+<?php
+echo $task7;
+?>
+<br>
 </body>
 </html>

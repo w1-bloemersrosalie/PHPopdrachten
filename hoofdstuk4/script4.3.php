@@ -20,7 +20,7 @@ while($number >= 0)
 }
 
 ?>
-<br>
+
 <?php
 $task3 = "lancering in:";
 for($number2 = 19; $number2 >= 0; $number2--)
@@ -34,8 +34,104 @@ for($number2 = 19; $number2 >= 0; $number2--)
 }
 
 ?>
-<br>
+
 <?php
 $task4 = "";
+$number3 = 1;
 
+while ($number3 < 7)
+{
+    $task4 .= "<h1>dit is de ".$number3."e iteratie</h1>";
+    $number3++;
+
+}
+?>
+
+<?php
+$task5 = "";
+for ($number3 = 1; $number3 < 11;)
+{
+    if ($number3 == 1)
+    {
+        $task5 .= "<table>";
+    }
+    $task5 .= "<tr><td>dit is de ".$number3."e iteratie</td></tr>";
+    if ($number3 == 10)
+    {
+        $task5 .= "</table>";
+    }
+    $number3++;
+}
+?>
+
+<?php
+$task6 = "";
+$YearDate = 2020;
+while ($YearDate > 2001)
+{
+    if ($YearDate == 2020) {
+        $task6 = "<p> in " . $YearDate . " word ik 18 jaar oud</p>";
+    }
+    else if ($YearDate > 2002)
+    {
+        $Age = $YearDate - 2002;
+        $task6 .= "<p> in ".$YearDate." was ik ".$Age." jaar oud</p>";
+    }
+    else
+    {
+        $task6 .= "<p> in ".$YearDate." ben ik geboren</p>";
+    }
+    $YearDate--;
+}
+?>
+
+<?php
+$task7 = "";
+$YearDate = 2022;
+while ($YearDate > 2001)
+{
+    if ($YearDate == 2022)
+    {
+        $task7 .= "<p> in ".$YearDate." ben ik 20 en word ik volwassenen</p>";
+    }
+    else if ($YearDate == 2021)
+    {
+        $Age = $YearDate - 2002;
+        $task7 .= "<p> in ".$YearDate." word ik $Age </p>";
+    }
+    else if ($YearDate == 2020)
+    {
+        $task7 .= "<p> in ".$YearDate." ben ik 18 en word ik een adolescent</p>";
+    }
+    else if ($YearDate == 2014)
+    {
+        $Age = $YearDate - 2002;
+        $task7 .= "<p>In $YearDate was ik $Age jaar oud en werd ik een puber </p>";
+    }
+    else if ($YearDate == 2010)
+    {
+        $Age = $YearDate - 2002;
+        $task7 .= "<p>In $YearDate was ik $Age jaar oud en werd ik een tiener </p>";
+    }
+    else if ($YearDate == 2006)
+    {
+        $Age = $YearDate - 2002;
+        $task7 .= "<p>In $YearDate was ik $Age jaar oud en werd ik een kleuter </p>";
+    }
+    else if ($YearDate == 2004)
+    {
+        $Age = $YearDate - 2002;
+        $task7 .= "<p>In $YearDate was ik $Age jaar oud en werd ik een peuter </p>";
+    }
+    else if ($YearDate == 2002)
+    {
+        $task7 .= "<p> in ".$YearDate." ben ik geboren en was ik een baby</p>";
+    }
+    else
+    {
+        $Age = $YearDate - 2002;
+        $task7 .= "<p> in ".$YearDate." was ik ".$Age." jaar oud</p>";
+    }
+    $YearDate--;
+}
 ?>
