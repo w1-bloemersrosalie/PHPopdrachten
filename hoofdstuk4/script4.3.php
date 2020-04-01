@@ -88,50 +88,44 @@ while ($YearDate > 2001)
 <?php
 $task7 = "";
 $YearDate = 2022;
-while ($YearDate > 2001)
+switch ($YearDate > 2001)
 {
-    if ($YearDate == 2022)
-    {
+    case 2022:
         $task7 .= "<p> in ".$YearDate." ben ik 20 en word ik volwassenen</p>";
-    }
-    else if ($YearDate == 2021)
-    {
+    break;
+
+    case 2021:
         $Age = $YearDate - 2002;
         $task7 .= "<p> in ".$YearDate." word ik $Age </p>";
-    }
-    else if ($YearDate == 2020)
-    {
+    break;
+
+    case 2020:
         $task7 .= "<p> in ".$YearDate." ben ik 18 en word ik een adolescent</p>";
-    }
-    else if ($YearDate == 2014)
-    {
+    break;
+
+    case 2014:
         $Age = $YearDate - 2002;
         $task7 .= "<p>In $YearDate was ik $Age jaar oud en werd ik een puber </p>";
-    }
-    else if ($YearDate == 2010)
-    {
+    break;
+    case 2010:
         $Age = $YearDate - 2002;
         $task7 .= "<p>In $YearDate was ik $Age jaar oud en werd ik een tiener </p>";
-    }
-    else if ($YearDate == 2006)
-    {
+    break;
+    case 2006:
         $Age = $YearDate - 2002;
         $task7 .= "<p>In $YearDate was ik $Age jaar oud en werd ik een kleuter </p>";
-    }
-    else if ($YearDate == 2004)
-    {
-        $Age = $YearDate - 2002;
+    break;
+    case 2004:
+         $Age = $YearDate - 2002;
         $task7 .= "<p>In $YearDate was ik $Age jaar oud en werd ik een peuter </p>";
-    }
-    else if ($YearDate == 2002)
-    {
+    break;
+    case 2002:
         $task7 .= "<p> in ".$YearDate." ben ik geboren en was ik een baby</p>";
-    }
-    else
-    {
+    break;
+    default:
         $Age = $YearDate - 2002;
         $task7 .= "<p> in ".$YearDate." was ik ".$Age." jaar oud</p>";
-    }
-    $YearDate--;
+        $YearDate--;
+        break;
 }
 ?>
