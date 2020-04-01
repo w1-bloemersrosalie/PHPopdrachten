@@ -91,7 +91,7 @@ $YearDate = 2022;
 switch ($YearDate > 2001)
 {
     case 2022:
-        $task7 .= "<p> in ".$YearDate." ben ik 20 en word ik volwassenen</p>";
+        echo $task7 .= "<p> in ".$YearDate." ben ik 20 en word ik volwassenen</p>";
     break;
 
     case 2021:

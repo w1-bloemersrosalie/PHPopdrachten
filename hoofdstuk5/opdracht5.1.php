@@ -4,6 +4,13 @@
  */ ?>
 <?php include '../header.php'; ?>
     <body>
+    <h1>RESTARIA KEES KROKET</h1>
+    <p>
+        Visstraat 12<br>
+        5211 DN 's-Hertogenbosch<br>
+        073 613 6720<br>
+        info@restariakeeskroket.nl
+    </p>
     <form action="form_data.php" method="get">
         <table>
             <tr>
@@ -35,7 +42,7 @@
                     <label>Telefoonnummer</label>
                 </td>
                 <td>
-                    <input name="Telnumber" type="tel">
+                    <input name="Telnumber" type="number">
                 </td>
             </tr>
             <tr>
@@ -51,12 +58,12 @@
                     <label>Bericht</label>
                 </td>
                 <td>
-                    <input name="message" type="text" height="150px">
+                    <input name="message" type="text">
                 </td>
             </tr>
             <tr>
                 <td>
-                    <input type="submit" name="verzend" value="verzend">
+                    <input type="submit" name="verzend" value="Versturen">
                 </td>
             </tr>
         </table>
