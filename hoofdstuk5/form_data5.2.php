@@ -16,4 +16,4 @@ echo "<tr><td></td><td>".$_GET["reasons2"]."</td></tr>";
 echo "<tr><td>de reden van uitschrijving</td><td>".$_GET["message"]."</td></tr>";
 echo "</table>";
 ?>
-<?php include '../footer.php'; ?>
+<?php include '../footer.php' ; ?>
