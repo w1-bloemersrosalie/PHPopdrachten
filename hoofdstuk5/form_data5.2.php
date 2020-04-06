@@ -2,7 +2,7 @@
  * User: Rosalie Bloemers
  * Date: 6-4-2020
  */ ?>
-
+<?php include '../header.php'; ?>
 <h1>Uitschrijfformulier KW1C</h1>
 <hr>
 <?php

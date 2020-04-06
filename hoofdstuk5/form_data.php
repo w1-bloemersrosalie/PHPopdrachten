@@ -2,7 +2,7 @@
  * User: Rosalie Bloemers
  * Date: 1-4-2020
  */ ?>
-
+<?php include '../header.php'; ?>
 <?php
 echo "<table class='eenvoudig'>";
 echo "<tr><td>Naam bedrijf</td><td>".$_GET["nameCompany"]."</td></tr>";
