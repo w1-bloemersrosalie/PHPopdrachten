@@ -1,0 +1,10 @@
+/*dit is de code voor het invul formulier*/
+table{
+    left: 35%;
+    position: relative;
+    text-align: center;
+}
+/* dit is de code voor de message zodat die tekst rood word*/
+#message{
+    color: red;
+}

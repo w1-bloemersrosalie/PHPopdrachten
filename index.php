@@ -83,6 +83,7 @@
 
     <br>
 
+
     <ul>
         <li class="text">Hoofdstuk 5</li>
             <ul>
@@ -98,6 +99,9 @@
                 </li>
                 <li>
                     <a href=>Opdracht 5.4</a>
+                </li>
+                <li>
+                    <a href="eindopdracht/login.php">eindopdracht</a>
                 </li>
             </ul>
         </li>
