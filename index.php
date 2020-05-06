@@ -107,6 +107,7 @@
         </li>
     </ul>
 
-<footer>klik op de opdrachten om een vester te openen met daarin de uitgekozen opdracht</footer>
+
+    <?php include 'footer.php';?>
 </body>
 
