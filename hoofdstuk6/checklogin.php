@@ -5,38 +5,37 @@
 
 
 <?php
-$authUsers = Array(
+$authusers = array(
     "Abu" => "bekend",
     "Nordin" => "onbekend",
     "BasZ" => "654321",
     "Rosalie" => "bloemblaadjes");
 
-$Username = $_POST["username"];
-$Password = $_POST["password"];
+$username = $_POST["username"];
+$password = $_POST["password"];
+
 
 if(isset($_POST['submit']))
 {
 //dit is een foreach loop waar de ingevulde waardes met de goede inloggevens worden vergeleken
-foreach ($authUsers as $key => $value)
+foreach ($authusers as $key => $value)
     {
 
-if ($authUsers == $key && $Password == $value)
+if ($username == $key && $password == $value)
         {
             session_start();
             $_SESSION['username'] = $_POST['username'];
-            header('location: welkom.php');
+            header('location: Welkom.php');
             include "Welkom.php";
-
+            return;
         }
-else {
-    //$message = "Ongeldige username/wachtwoord
-    //{$_POST['username']}, probeer het nog eens.";
-
-    include "opdracht61.php";
-}
+        elseif($username != $key && $password != $value)
+        {
+            include "opdracht61.php";
+        }
     }
 }
-?>;
+?>
 
 
 

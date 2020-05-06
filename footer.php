@@ -36,7 +36,7 @@ if ($hour >= 12 && $hour <= 17)
 }
 
 
-echo "<footer> <span>  © $year  $bezoeker </span>
+echo "<footer><br> <span>  © $year  $bezoeker </span>
 </footer>
 </body>
 </html>";

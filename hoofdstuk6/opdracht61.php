@@ -13,9 +13,10 @@
         <br>
         <input type="password" name="password">
         <br>
+        <br>
         <input type="submit" name="submit">
     </form>
-
+<br>
 
     </body>
 <?php include '../footer.php'; ?>
