@@ -2,10 +2,10 @@
 <html>
 <head>
 </head>
-<body>
+
 <link href="../stylesheet.css" type="text/css" rel="stylesheet">
 
-
+<footer>
 <?php
 
 
@@ -34,11 +34,8 @@ if ($hour >= 12 && $hour <= 17)
 {
     echo "goedenmiddag!";
 }
-
-
-echo "<footer><br> <span>  © $year  $bezoeker </span>
+echo "<br> <span>  © $year  $bezoeker </span>
 </footer>
-</body>
 </html>";
 echo "<a href=\"../index.php\" class=\"back\">klik hier om terug te gaan</a>";
  ?>
