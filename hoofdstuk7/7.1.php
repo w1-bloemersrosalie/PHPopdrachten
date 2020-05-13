@@ -43,7 +43,12 @@ while ($row = $result->fetch(PDO::FETCH_ASSOC))
 echo "<pre>";
 var_dump($aJokes);
 echo "</pre>";
-    ?>
+
+
+foreach($aJokes as $grap)
+{     echo "<br>".$grap['joketext']; }
+
+?>
 
 
 <?php include '../footer.php'; ?>
