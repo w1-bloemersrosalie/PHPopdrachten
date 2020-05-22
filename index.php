@@ -104,6 +104,30 @@
                     <a href="eindopdracht/login.php">eindopdracht</a>
                 </li>
             </ul>
+    </ul>
+        <ul>
+            <li class="text">Hoofdstuk 6</li>
+            <ul>
+                <br>
+                <li>
+                    <a href="hoofdstuk6/opdracht61.php">Opdracht 6.1</a>
+                </li>
+                <li>
+                    <a href="hoofdstuk6/opdracht62.php">Opdracht 6.2</a>
+                </li>
+            </ul>
+            </ul>
+            <ul>
+                <li class="text">Hoofdstuk 7</li>
+                <ul>
+                    <br>
+                    <li>
+                        <a href="hoofdstuk7/7.1.php">Opdracht 7.1</a>
+                    </li>
+                    <li>
+                        <a href="hoofdstuk7/7.2.php">Opdracht 7.2</a>
+                    </li>
+                </ul>
         </li>
     </ul>
 

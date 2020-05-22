@@ -37,8 +37,8 @@ a
     color: aqua;
     background-color: azure;
 }
-footer
-{
-    position: sticky;
+footer{
+    position: absolute;
+    bottom: 10px;
     background-color: azure;
 }
