@@ -2,8 +2,9 @@
  * User: Rosalie Bloemers
  * Date: 22-5-2020
  */ ?>
-<?php include '../header.php'; ?>
+
 <?php
+
 
 // Open de database connectie en ODBC driver
 try {
@@ -31,19 +32,7 @@ try {
 $aJokes = array();
 
 // Door de results heen loopen via een while
-while ($row = $result->fetch(PDO::FETCH_ASSOC))
-{     // Result wegschrijven in de $aJokes array
+while ($row = $result->fetch(PDO::FETCH_ASSOC)) {     // Result wegschrijven in de $aJokes array
     $aJokes[] = $row;
 }
-echo "<br><br><table>
-<tr><td>ID</td><td>Joketext</td><td>Jokeclou</td><td>Jokedate</td></tr>";
-foreach($aJokes as $grap)
-{
-    echo "<tr><td>" .$grap['id']. "</td><td>" .$grap['joketext']. "</td><td>" .$grap['jokeclou']. "</td><td>" .$grap['jokedate']. "</td></tr>";
-}
-echo "</table>"
-
-//print_r($aJokes)
-//var_dump($aJokes);
 ?>
-<?php include '../footer.php'; ?>
